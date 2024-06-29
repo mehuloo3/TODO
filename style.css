@@ -1,0 +1,82 @@
+body
+{
+    margin:0;
+    padding: 0;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main
+{
+    margin: 0px auto;
+    background-color: rgb(27, 238, 238);
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgb(19, 161, 169);
+}
+.main:hover
+{
+    box-shadow: 1px 1px 2px rgb(64, 176, 182);
+}
+h1
+{
+margin: 0;
+text-align: center;
+color: #555;
+}
+input[type="text"]
+{
+    width: 200px;
+    border:node;
+    border-radius:2px solid #fff;
+    padding: 8px;
+    width:80%;
+    margin-right: 10px;
+}
+button
+{
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+button:hover
+{
+background-color: #333;
+}
+
+ul
+{
+list-style: none;
+padding: 0;
+margin-top: 20px;
+}
+li
+{
+    padding:10px ;
+    background-color: #eee;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li:last-child
+{
+    margin-bottom: 0px;
+}
+.delete-todo-btn
+{
+    background-color: red;
+    color:white;
+    border:none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.delete-todo-btn:hover
+{
+    background-color:#d32f2f;
+}
